@@ -1,16 +1,24 @@
 .icone-alte {
-    top: 0;
+    /* top: 0;
     right: 0;
+    position: absolute; */
+    height: 30px;
+}
+main {
+    position: relative;
 }
 #page-container{
-    height: 100vh;
-    padding: 30px;
+    height: calc(100vh -30px);
+    padding: 0 30px;
     flex-wrap: wrap;
     margin: auto;
+    overflow-y: auto;
+    position: relative;
 }
 .img-container {
-    width: calc(100%/7 - 12px);
-    height: 122px;
+    width: calc(100%/7 - 6px);
+
+    margin-bottom: 15px;
 }
 .img-container img {
 object-fit: cover;
