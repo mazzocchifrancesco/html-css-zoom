@@ -1,0 +1,19 @@
+.icone-alte {
+    top: 0;
+    right: 0;
+}
+#page-container{
+    height: 100vh;
+    padding: 30px;
+    flex-wrap: wrap;
+    margin: auto;
+}
+.img-container {
+    width: calc(100%/7 - 12px);
+    height: 122px;
+}
+.img-container img {
+object-fit: cover;
+width: 100%;
+
+}
